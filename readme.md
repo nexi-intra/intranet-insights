@@ -1,6 +1,6 @@
 ---
-title: magic-people
-description: Describe the main purpose of this kitchen
+title: Intranet Insights
+description: Tool for showing what's going on
 ---
 
-# magic-people
+# Intranet Insights
