@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { APPNAME } from "../../../global";
 import { useSQLSelect } from "../../../koksmat/usesqlselect";
 import { IPageViewItem, ListTopPages } from "@/components/list-top-pages";
+import { IntranetsPages } from "@/components/marcosdashboard";
 export interface TopPages {
   Result: IPageViewItem[];
 }
@@ -25,6 +26,7 @@ order by count(*) desc
   );
   return (
     <div className="space-x-2 h-[90vh]">
+      {/* <IntranetsPages /> */}
       <ListTopPages data={top100pages?.data?.Result} />
     </div>
   );
